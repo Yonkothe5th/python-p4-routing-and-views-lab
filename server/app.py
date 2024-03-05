@@ -1,32 +1,3 @@
-# #!usr/bin/env python 3
-
-# from flask import Flask 
-
-
-# app = Flask(__name__)
-# @app.route('/')
-# def index():
-#     return '<h1>Python Operations with Flask Routing and Views</h1>'
-
-# @app.route('/print/<string:route>')
-# def print_string(parameter):
-#     return f'<h1> Returns {parameter}</h1>'
-
-
-# @app.route('/count/<int:number>')
-# def count(number):
-#     count = f''
-#     for n in range(number):
-#         count += f'{n}\n'
-#     return count 
-
-
-# if __name__ == "__main__":
-#     app.run(port=5555)
-
-
-#!/usr/bin/env python3
-
 from flask import Flask
 
 app = Flask(__name__)
